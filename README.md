@@ -2,8 +2,8 @@
 
 Assessment to create a Banking application which should perform all CURD operations using Flask.
 
-Prerequisite
-Python 3
+Prerequisite are 
+Python 3,
 Flask 
 
 Steps involved
