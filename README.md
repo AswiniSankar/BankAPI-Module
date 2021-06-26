@@ -18,6 +18,7 @@ Steps involved
      3. This API also does banking operations such as deposit and withdrawal. 
                i) to deposit -  http://localhost:5000/customers/banking/deposite/<int:amount>
               ii) to withdraw- http://localhost:5000/customers/banking/withdrawal/<int:amount>
+     4. By using curl command curl -i -H "Content-Type: Application/json" -X (REST method) (url) we can see the output.
 
 
         
