@@ -1,6 +1,6 @@
 # banking API using Rest methods
 from flask import Flask, jsonify
-from pandas._libs.missing import C_NAType
+import os
 
 app = Flask(__name__)
 # creating dummy data base
@@ -79,6 +79,6 @@ def withdraw(c_id, amount):
     else:
         return "insufficient fund"
 
-
+port = os.environ.get("PORT",5000)  
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0.", port=port)
